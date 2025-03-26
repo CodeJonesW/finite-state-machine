@@ -1,0 +1,19 @@
+<package format="3">
+  <name>fsm_demo</name>
+  <version>0.1.0</version>
+  <description>FSM demo package for ROS 2 (Python)</description>
+  <maintainer email="will@example.com">Will</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- Build dependencies -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- Runtime dependencies -->
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+
+  <!-- Export section for Python packages -->
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
