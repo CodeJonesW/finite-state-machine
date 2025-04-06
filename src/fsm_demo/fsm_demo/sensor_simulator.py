@@ -11,7 +11,7 @@ class SensorSimulator(Node):
 
     def publish_obstacle(self):
         msg = Bool()
-        msg.data = random.choice([True, False])
+        msg.data = random.choice([True, False, False, False, False, False, False, False, False])
         self.publisher.publish(msg)
         self.get_logger().info(f"Published obstacle: {msg.data}")
 
