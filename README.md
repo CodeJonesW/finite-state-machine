@@ -41,6 +41,9 @@ The planner node is where the FSM logic happens—it listens to sensor data and 
 5. ros2 pkg list | grep fsm_demo
 6. ros2 run fsm_demo sensor_simulator
 
+## Enter container already running
+- docker exec -it ros2_fsm_demo bash
+
 ## 🚀 Running All ROS 2 Nodes Together in Docker
 
 Now that your ROS 2 package is working, let’s **run all the nodes** so you can see the full interaction between the **sensor, planner, actuator, and brake controller**.
