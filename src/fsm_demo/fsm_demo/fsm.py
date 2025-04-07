@@ -1,5 +1,5 @@
-from states.cruise import CruiseState
-from states.stop_at_light import StopAtLightState
+from fsm_demo.states.cruise import CruiseState
+from fsm_demo.states.stop_at_light import StopAtLightState
 
 class FSM:
     def __init__(self, planner_node):

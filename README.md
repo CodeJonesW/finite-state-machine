@@ -42,7 +42,7 @@ The planner node is where the FSM logic happens—it listens to sensor data and 
 6. ros2 run fsm_demo sensor_simulator
 
 ## Enter container already running
-- docker exec -it ros2_fsm_demo_dev bash
+- docker exec -it ros2_fsm_demo bash
 
 ## 🚀 Running All ROS 2 Nodes Together in Docker
 

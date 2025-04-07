@@ -1,23 +1,21 @@
 from setuptools import setup
 
-package_name = 'fsm_demo'
-
 setup(
-    name=package_name,
+    name='fsm_demo',
     version='0.1.0',
-    packages=[package_name],
+    packages=['fsm_demo', 'fsm_demo.states'],
+    py_modules=[],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='Your Name',
-    maintainer_email='your.email@example.com',
-    description='ROS 2 FSM Python package',
-    license='Apache License 2.0',
+    maintainer='Will',
+    maintainer_email='will@example.com',
+    description='FSM demo package',
     entry_points={
         'console_scripts': [
-            'sensor_simulator = fsm_demo.sensor_simulator:main',
             'planner_fsm = fsm_demo.planner_fsm:main',
-            'actuator_logger = fsm_demo.actuator_logger:main',
+            'sensor_simulator = fsm_demo.sensor_simulator:main',
             'brake_controller = fsm_demo.brake_controller:main',
+            'actuator_logger = fsm_demo.actuator_logger:main',
         ],
     },
 )
